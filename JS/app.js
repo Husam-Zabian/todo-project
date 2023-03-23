@@ -12,8 +12,7 @@ if (sinput == "male"){
     alert ( Finput );
 }
 }*/
-
-    let answersArr = new Array();
+let answersArr = new Array();
 
 
 function queN1() {
@@ -52,5 +51,9 @@ queN1();
 queN2();
 queN3();
 
-console.log("Your answers is  " + answersArr);
+console.log("Your answers for question one  " + answersArr[0]);
+
+console.log("Your answers for question two  " + answersArr[1]);
+
+console.log("Your answers for question three " + answersArr[2]);
 
